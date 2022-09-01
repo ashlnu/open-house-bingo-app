@@ -1,0 +1,74 @@
+.container {
+  background-color: black;
+  height: auto;
+  width: auto;
+  padding: 1rem;
+  .title {
+    font-size: 3rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+  .btn-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .get-word {
+      padding: 1rem;
+      font-size: 1.5rem;
+      background-color: rgb(5, 167, 32);
+      border: 1px solid white;
+      border-radius: 8px;
+      color: white;
+      margin-left: 15px;
+    }
+    .reset {
+      padding: 1rem;
+      font-size: 1.5rem;
+      background-color: rgb(2, 34, 179);
+      border: 1px solid white;
+      border-radius: 8px;
+      color: white;
+      margin-right: 50px;
+    }
+  }
+}
+.flex-row {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  .list-item {
+    margin: 8px;
+    border: 1px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background-color: rgb(5, 135, 187);
+    font-size: 1.5rem;
+    padding: 1.2rem;
+    text-align: center;
+    color: white;
+  }
+  .green-box {
+    border: 1px solid white;
+    background-color: rgb(245, 62, 62);
+    color: white;
+  }
+
+  .current-box {
+    border: 1px solid white;
+    background-color: rgb(32, 233, 99);
+    color: white;
+  }
+}
+.flex-column {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 80vh;
+  border: 2px solid;
+  padding: 1rem;
+  margin: 1rem;
+}
