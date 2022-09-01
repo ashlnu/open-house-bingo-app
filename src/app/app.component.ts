@@ -225,6 +225,7 @@ export class AppComponent implements OnInit {
   resetGame() {
     this.remainingWordList = [...this.originalWordList];
     this.processedWordList = [];
+    this.currentWord = '';
     window.sessionStorage.removeItem('processedWordList');
     window.sessionStorage.removeItem('remainingWordList');
   }
