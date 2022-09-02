@@ -162,7 +162,7 @@ export class AppComponent implements OnInit {
 
     'Sprite',
 
-    'Mazza',
+    'Maaza',
 
     'Thums up',
     'Cricket',
